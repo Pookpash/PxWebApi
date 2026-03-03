@@ -7,7 +7,7 @@ services:
     image: ghcr.io/pxtools/pxweb2:2.6.3
     pull_policy: always 
     ports:
-      - "8080:8080"
+      - "28080:8080"
     volumes:
       - ./docker/pxweb2/public/config:/usr/share/nginx/html/config:rw
       - ./docker/pxweb2/public/content:/usr/share/nginx/html/content:rw
@@ -21,7 +21,7 @@ services:
     image: ghcr.io/pxtools/pxwebapi:2.2.0
     pull_policy: always
     ports:
-      - "8081:8080"
+      - "28081:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     volumes:

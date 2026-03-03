@@ -6,7 +6,7 @@ window.PxWeb2Config = {
     showDefaultLanguageInPath: true,
   },
   baseApplicationPath: '/',
-  apiUrl: '//localhost:8081/api/v2',
+  apiUrl: '//localhost:28081/api/v2',
   maxDataCells: 150000,
   showBreadCrumbOnStartPage: false,
   specialCharacters: ['.', '..', ':', '-', '...', '*'],
